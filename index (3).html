@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Қазақстанға Тур</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        header {
+            background-color: #2e8b57;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        nav {
+            background-color: #1c1c1c;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            display: inline-block;
+            padding: 12px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background-color: #2e8b57;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 350px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        form {
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #2e8b57;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #246c45;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Қазақстанға Қош Келдіңіз!</h1>
+    <p>Табиғат пен мәдениетке толы саяхат</p>
+</header>
+
+<nav>
+    <a href="#about">Тур туралы</a>
+    <a href="#places">Бағыттар</a>
+    <a href="#gallery">Суреттер</a>
+    <a href="#price">Бағалар</a>
+    <a href="#order">Тапсырыс беру</a>
+    <a href="#contact">Байланыс</a>
+</nav>
+
+<section id="about">
+    <h2>Тур туралы</h2>
+    <p>Біз сізге Қазақстанның ең әдемі жерлеріне саяхат ұсынатын тур ұйымдастырамыз. Алматы, Астана, Шарын шатқалы, Көлсай көлдері – барлығы бір турда!</p>
+</section>
+
+<section id="places">
+    <h2>Бағыттар</h2>
+    <ul>
+        <li>Алматы – қала және табиғат үйлесімі</li>
+        <li>Астана – заманауи архитектура</li>
+        <li>Шарын шатқалы – Қазақстанның кішкентай Гранд-Каньоны</li>
+        <li>Көлсай мен Қайыңды – көркем көлдер мен таулар</li>
+    </ul>
+</section>
+
+<section id="gallery">
+    <h2>Суреттер</h2>
+    <div class="gallery">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Kolsai_Lake.jpg/640px-Kolsai_Lake.jpg" alt="Көлсай көлі">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Charyn_Canyon%2C_Kazakhstan.jpg/640px-Charyn_Canyon%2C_Kazakhstan.jpg" alt="Шарын шатқалы">
+    </div>
+</section>
+
+<section id="price">
+    <h2>Бағалар</h2>
+    <p>7 күндік тур: <strong>120 000 теңге</strong> (барлығы ішінде)</p>
+    <p>Бағаға кіреді: көлік, қонақ үй, экскурсия, тамақ.</p>
+</section>
+
+<section id="order">
+    <h2>Тапсырыс беру</h2>
+    <form>
+        <label>Атыңыз:</label>
+        <input type="text" name="name" required>
+
+        <label>Электронды пошта:</label>
+        <input type="email" name="email" required>
+
+        <label>Хабарлама:</label>
+        <textarea name="message" rows="4" placeholder="Сұрақтарыңызды жазыңыз..."></textarea>
+
+        <input type="submit" value="Жіберу">
+    </form>
+</section>
+
+<section id="contact">
+    <h2>Байланыс</h2>
+    <p>Телефон: +7 777 123 4567</p>
+    <p>Email: info@kaztour.kz</p>
+    <p><a href="https://www.google.com/maps/place/Алматы" target="_blank">Картада көру (Google Maps)</a></p>
+</section>
+
+<footer>
+    <p>2025 &copy; KazTour. Барлық құқықтар қорғалған.</p>
+</footer>
+
+</body>
+</html>
